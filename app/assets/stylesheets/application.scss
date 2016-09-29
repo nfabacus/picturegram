@@ -20,7 +20,32 @@
 
 body {
   background-color: #fafafa;
+  background-image: url("https://hd.unsplash.com/photo-1446160657592-4782fb76fb99");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0%;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    /* border-radius: 4px; */
+    border-style: none;
+    border: 1px rgba(128, 128, 128, 0.69) solid;
+    border-radius: 3px;
+}
+
+a {
+  line-height: 30px;
 }
 
 .navbar-brand {
@@ -96,4 +121,14 @@ body {
 .edit-links {
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+.centerCSS {
+  margin: 0 10% 0 10%;
+}
+
+label {
+  margin: 10px 0px 10px 0px;
+  width: 120px;
+  font-size: 17px;
 }
